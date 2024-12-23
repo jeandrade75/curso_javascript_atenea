@@ -1,0 +1,36 @@
+img {
+  width: 200px;
+  margin: 20px;
+}
+
+div {
+  height: 200px;
+  width: 200px;
+}
+
+p {
+  margin: 0;
+  text-align: center;
+}
+
+#uno {
+  background-color: rgb(190, 199, 18);
+  padding: 15px;
+  border: 10px solid rgb(148, 0, 253);
+  margin-left: 250px;
+}
+
+#dos {
+  height: fit-content;
+  width: fit-content;
+  background-color: rgb(255, 0, 170);
+  border: solid purple;
+  border-width: 10px 5px;
+}
+
+#tres {
+  width: 240px;
+  background-color: rgb(92, 137, 205);
+  border: 10px solid purple;
+  border-width: 10px 0px 0px 0px;
+}

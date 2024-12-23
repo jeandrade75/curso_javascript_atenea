@@ -1,0 +1,19 @@
+html {
+    font-size: 18px;
+}
+.green-text {
+    color: green;
+}
+.large-text {
+    font-size: 2rem;
+}
+.bold-text {
+    font-weight: 700;
+}
+.other-font {
+    font-family: 'Open Sans', sans-serif;
+}
+.right-text {
+    text-align: right;
+}
+

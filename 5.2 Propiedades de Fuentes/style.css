@@ -1,0 +1,23 @@
+html {
+    font-size: 18px;
+    background-color: aqua;
+}
+h1 {
+    color:black;
+    font-size: 2rem;
+}
+.green-text {
+    color: green;
+}
+.large-text {
+    font-size: 2rem;
+}
+.bold-text {
+    font-weight: bold;
+}
+.other-font {
+    font-family: 'Courier New', Courier, monospace;
+}
+.right-text {
+    text-align: right;
+}

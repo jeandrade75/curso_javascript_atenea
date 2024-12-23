@@ -1,0 +1,17 @@
+h1 {
+    color: red;
+    font-size: 24px;
+}
+
+.texto-destacado {
+    color: green;
+    font-weight: bold;
+}
+p {
+    color:black;
+}
+div {
+    color: green;
+    font-weight: bold;
+
+}

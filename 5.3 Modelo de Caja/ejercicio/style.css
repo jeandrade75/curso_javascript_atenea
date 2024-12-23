@@ -1,0 +1,57 @@
+
+/* <!-- Requisitos para el archivo css:
+1. Generar una regla para las imagenes y poner un ancho de 200px
+    1.1 Agregar margen de 20px
+2. Generar una regla para los div que tenga alto y ancho de 200px
+3. Generar una regla para los parrafos con un margen de 0
+    3.1 Setear la alineacion de texto "text-align" al centro.
+4. Generar una regla para el elemento "uno" apuntando a su id.
+    4.1 Cambiar el fondo a otro color
+    4.2 Setear el relleno a 15px
+    4.3 Setear el borde con 10 pixeles, solido y cualquier color
+    4.4 Setear el lado izquierdo del margen a 250px
+5. Generar una regla para el elemento "dos"
+    5.1 Setear la altura con el valor "fit-content"
+    5.2 Setear el ancho con el valor "fit-content"
+    5.3 Setear el fondo a cualquier color
+    5.4 Setear un borde solido y de color morado
+    5.5 Setear un "border-width" debajo del border con 10 pixeles arriba y abajo y 5 en los costados
+6. Generar una regla para el elemento "tres"
+    6.1 Setear un ancho de 240px
+    6.2 Setear un fondo de cualquier color
+    6.3 setear un borde de 10px solido y de color morado
+    6.4 setear un border-width para que tenga 10px arriba pero 0 en el resto.
+--> */
+
+img {
+    width: 200px;
+    margin: 20px;
+}
+div {
+    width: 200px;
+    height: 200px;
+}
+
+p {
+    margin: 0;
+    text-align: center;
+}
+#uno {
+    background-color: lightblue;
+    padding: 15px;
+    border: 10px solid black;
+    margin-left: 250px;
+}
+#dos {
+    height: fit-content;
+    width: fit-content;
+    background-color: lightgreen;
+    border: solid purple;
+    border-width: 10px 5px;
+}
+#tres {
+    width: 240px;
+    background-color: lightcoral;
+    border: 10px solid purple;
+    border-width: 10px 0 0 0;
+}

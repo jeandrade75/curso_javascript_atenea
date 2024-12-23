@@ -1,0 +1,14 @@
+h1 {
+    color: blue;
+}
+.texto-destacado {
+    color: green;
+    font-weight: bold;
+}
+p {
+    color: black;
+}
+#titulo-principal {
+    color: red;
+    font-size: 24px;
+}
